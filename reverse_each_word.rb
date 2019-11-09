@@ -1,11 +1,11 @@
-def reverse(string)
-  reversed_string = ''
+def reverse_each_word(string)
+  reverse_each_word = ''
 
  i = 0
  while i < string.length
-  reversed_string = string[i] + reversed_string
+   reverse_each_word   = string[i] + reversed_string
   i += 1
  end
 
- return reversed_string
+ return reverse_each_word
 end
