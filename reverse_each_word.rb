@@ -3,7 +3,7 @@ def reverse_each_word(string)
 
  i = 0
  while i < string.length
-   reverse_each_word   = string[i] + reversed_string
+   reverse_each_word   = string[i] + reverse_each_word
   i += 1
  end
 
